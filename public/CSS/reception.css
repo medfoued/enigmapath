@@ -1,0 +1,97 @@
+@font-face{ 
+    font-family: art ;
+    src: url('../font/Rubik-VariableFont_wght.ttf');
+}
+#container{
+    min-height: 100%;
+    position:static ;
+  
+}
+#container img{
+    position: absolute;
+    width:1348px;
+}
+#container a{
+    
+    position :relative;
+    font-size: xx-large;
+    font-weight: 750;
+    font-family: art ;
+    color: #ffffffea;
+    background-color:#11111163;
+    
+
+}
+#text{
+    margin: 300px 30px 20px;
+    height: 40%;
+    width: 90%;
+   
+}
+#container h1{
+    position :relative;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: art ;
+    color: #a200ff60;
+    display:flex;
+    justify-content: center;
+    padding:25px;
+    
+
+}
+
+.registred img{
+   position: absolute;
+    width:1348px;
+    backdrop-filter: blur(100px);
+    
+}
+.registred form{
+    height: 450px;
+    width: 500px;
+    position: relative;
+    margin: 90px;
+    border:solid black 3px;
+    backdrop-filter: blur(15px);
+    border-radius: 34px;
+    padding:10px 7px 5px;
+}
+.registred{
+    display: flex;
+    justify-content: center;
+  
+
+}
+form button{
+    font-family: art;
+    font-size: large;
+    font-weight: 500;
+    margin:70px 20px 10px;
+    margin-left: 180px;
+    padding:7px 25px;
+    border:none;
+    border-bottom: solid #a200ff60 1px;
+    border-radius: 5px;
+    
+    
+}
+.registred button:hover{
+    
+    color :#a200ff60 ;
+    background-color: #111;
+    box-shadow: #111;
+    transition: 0.5s;
+
+}
+    
+.registred a{
+    font-size: xx-large;
+    font-weight: 750;
+    font-family: art ;
+    color: #111;
+    background-color:#cfcbcb07;
+}
+
+#me7rez{
+height: 125px;}

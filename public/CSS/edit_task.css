@@ -1,0 +1,95 @@
+.all {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F9;
+    color: #0C081A;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+form {
+    background-color: #0C081A;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: #0C081A;
+}
+
+form button {
+    background-color: #F4A261;
+    color: #0C081A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #E76F51;
+}
+
+/* Task list styles */
+.task {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.task h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0C081A;
+}
+
+.task p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.task a {
+    color: #F4A261;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.task a:hover {
+    text-decoration: underline;
+}
+
+.task form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.task form button {
+    background-color: #E63946;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.task form button:hover {
+    background-color: #D62828;
+}

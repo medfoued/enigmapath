@@ -1,0 +1,8 @@
+npm install vite --save-dev
+npx vite
+npx vite build
+php artisan serve
+php artisan cache:clear
+php artisan make:migration (migrate name)
+php artisan migrate
+php artisan make:model tdl
